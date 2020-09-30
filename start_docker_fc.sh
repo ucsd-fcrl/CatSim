@@ -1,7 +1,7 @@
 PORT=8898   #This is the port alloted to you to view Jupyter notebook
 HOST_EXP_DIR=$(pwd) # This is the directory on your computer which becomes visible inside the docker
 DOCKER_EXP_DIR=/Experiment # This is the name(path) of the directory inside the docker
-HOST_DATA_DIR=/media    # This is the directory where permanent data is located
+HOST_DATA_DIR=/Volumes    # This is the directory where permanent data is located
 DOCKER_DATA_DIR=/Data  # Data directory visible inside docker
 GPUS=0  # Number of GPUs you need in the docker
 IMAGE='fcontijoch/catsim'  # This is the docker image used to create the container.
